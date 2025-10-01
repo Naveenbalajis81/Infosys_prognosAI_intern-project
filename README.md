@@ -19,9 +19,6 @@ Project Workflow
 6. **Visualization & Output**  
 - Present results via charts and dashboards showing RUL trends and alert zones. 
 
-Architecture Diagram  
-
-![](Aspose.Words.072c5ff2-ae53-4611-8571-688eb115c598.001.png)
 
 Tech Stack  
 
@@ -97,3 +94,4 @@ Tech Stack
 - Clarity and informativeness of visualizations.  
 - Responsiveness and usability of the dashboard.  
   - Ability to convey critical insights about asset health and potential risks. 
+
