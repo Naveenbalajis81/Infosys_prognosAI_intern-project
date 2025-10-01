@@ -34,12 +34,12 @@ Tech Stack
 **Milestone 1: Data Preparation & Feature Engineering**  
 
 - **Objective:** Successfully load, preprocess, and prepare the CMAPSS dataset for model training, including the creation of appropriate features and RUL targets.  
-- **Deliverables:**  
+**Deliverables:**  
 - Cleaned and preprocessed CMAPSS sensor data.  
 - Python scripts for data loading and preprocessing.  
 - Generated rolling window sequences.  
 - Computed RUL targets for all engine cycles.  
-- **Evaluation:**  
+**Evaluation:**  
 - Verification of data integrity and absence of missing values.  
 - Correctness of rolling window sequence generation.  
 - Accuracy of RUL target calculations.  
@@ -48,12 +48,12 @@ Tech Stack
 **Milestone 2: Model Development & Training**  
 
 - **Objective:** Develop and train a time-series deep learning model (LSTM/GRU) capable of learning patterns from sensor data to predict RUL.  
-- **Deliverables:**  
+**Deliverables:**  
 - Implemented LSTM or GRU model architecture.  
 - Trained model weights.  
 - Training loss and validation loss curves.  
 - Code for model definition, training, and saving.  
-- **Evaluation:**  
+**Evaluation:**  
 - Convergence of training process (loss reduction).  
 - Initial performance on validation set (e.g., visual inspection of predicted vs. actual RUL).  
 - Proper implementation of the deep learning model.  
@@ -61,12 +61,12 @@ Tech Stack
 **Milestone 3: Model Evaluation & Performance Assessment**  
 
 - **Objective:** Rigorously evaluate the trained model's performance using defined metrics and analyze its predictive accuracy.  
-- **Deliverables:**  
+**Deliverables:**  
 - Calculated RMSE scores for the test set.  
 - Plots comparing predicted RUL against actual RUL.  
 - Analysis of model biases and errors.  
 - Detailed evaluation report.  
-- **Evaluation:**  
+**Evaluation:**  
 - Achieve an acceptable RMSE score (e.g., below a predefined threshold). 
 - Visual consistency between predicted and actual RUL plots.  
 - Identification and understanding of model limitations.  
@@ -74,11 +74,11 @@ Tech Stack
 **Milestone 4: Risk Thresholding & Alert System**  
 
 - **Objective:** Define and implement a mechanism to translate RUL predictions into actionable maintenance alerts.  
-- **Deliverables:**  
+**Deliverables:**  
 - Defined RUL thresholds for different alert levels (e.g., warning, critical). 
 - Logic for triggering maintenance alerts based on predicted RUL.  
 - Examples of triggered alerts.  
-- **Evaluation:**  
+**Evaluation:**  
 - Effectiveness of thresholds in identifying potential failures early.  
 - Clarity and accuracy of alert triggers.  
 - Practical applicability of the alerting mechanism.  
@@ -86,13 +86,14 @@ Tech Stack
 **Milestone 5: Visualization & Dashboard Development**  
 
 - **Objective:** Create interactive visualizations and a dashboard to present RUL trends, predictions, and alerts.  
-- **Deliverables:**  
+**Deliverables:**  
 - Interactive charts displaying RUL trends over time. 
 - Dashboards showing current RUL predictions and alert zones. 
 - User-friendly interface (e.g., Streamlit/Flask application).  
-- **Evaluation:**  
+**Evaluation:**  
 - Clarity and informativeness of visualizations.  
 - Responsiveness and usability of the dashboard.  
 - Ability to convey critical insights about asset health and potential risks. 
+
 
 
